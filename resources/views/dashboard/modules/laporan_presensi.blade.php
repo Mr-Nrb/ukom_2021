@@ -38,6 +38,19 @@
             {{ $d->keterangan }}
           </div>
         </td>
+        <td>
+          @switch($d->status_hadir)
+            
+          @case('1')
+          <p>ditolak</p>
+          @break
+          @case('2')
+          <p>diterima</p>
+          @break
+          @default('0')
+          <p>belum terkonfirmasi</p>
+          @endswitch
+        </td>
 
       </tr>
     @endforeach

@@ -11,5 +11,8 @@ class Nilai extends Model
     protected $table = 'nilai';
     protected $softDelete = false;
     public $timestamps = false;
-    protected $fillable = ['id_penilaian','kompetensi','nilai'];
+    protected $fillable = [ 'id_penilaian',
+                            'kompetensi',
+                            'nilai',
+                           ];
 }

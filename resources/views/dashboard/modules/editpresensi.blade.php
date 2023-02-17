@@ -83,10 +83,22 @@
                             class="w-full rounded-md shadow-inner border whitespace-normal h-[10em] border-gray-400"
                             value="{{$d->kegiatan}}">
                     </div>
+                    <div class="w-full">
+                        <label for="status_hadir"> Status </label>
+                        <br>
+                        <input type="text" name="kegiatan"
+                            class="w-full rounded-md shadow-inner border whitespace-normal h-[10em] border-gray-400"
+                            value="{{$d->kegiatan}}">
+                    </div>
+                    
                     <button type="submit" value="simpan"
                         class="btn bg-[#256D85] rounded -lg px-5 mb-5 py-3 text-center shadow-md hover:bg-emerald-700 font-bold text-white">Simpan</button>
+                    
                 </div>
             </form>
+
+            
+
             @endforeach
         </div>
     </div>

@@ -14,7 +14,7 @@ return new class extends Migration
     protected $table;
     public function __construct()
     {
-        $this->table = 'nilai';
+        $this->table = 'sikap';
     } 
     
     public function up()
@@ -24,12 +24,15 @@ return new class extends Migration
             $table->charset = 'utf8mb4';
             $table->collation = 'utf8mb4_general_ci';
             $table->tinyInteger('id_penilaian')->length(4)->nullable(false);
-            $table->tinyInteger('kompetensi')->length(4)->nullable(false);
             $table->tinyInteger('nilai')->length(4)->nullable(false);
-            
+            $table->tinyInteger('disiplin_waktu')->length(4)->nullable(false);
+            $table->tinyInteger('kemauan_kerja_dan_motivasi')->length(4)->nullable(false);
+            $table->tinyInteger('kualitas_kerja')->length(4)->nullable(false);
+            $table->tinyInteger('inisiatif_kerja')->length(4)->nullable(false);
+            $table->tinyInteger('perilaku')->length(4)->nullable(false);
     
             $table->foreign('id_penilaian')->references('id_penilaian')->on('penilaian')->cascadeOnDelete()->cascadeOnUpdate();
-            $table->foreign('kompetensi')->references('id_kompetensi')->on('kompetensi')->cascadeOnDelete()->cascadeOnUpdate();
+            
         });
     }
 

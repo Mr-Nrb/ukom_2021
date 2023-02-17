@@ -49,90 +49,90 @@ class DatabaseSeeder extends Seeder
         
 // Guru
 
-        Guru::create([
-            'nip_guru' => 3011202201,
-            'nama_guru' => "Parjo"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202201,
+        //     'nama_guru' => "Parjo"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202202,
-            'nama_guru' => "Joko"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202202,
+        //     'nama_guru' => "Joko"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202203,
-            'nama_guru' => "Robo"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202203,
+        //     'nama_guru' => "Robo"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202204,
-            'nama_guru' => "Gojo"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202204,
+        //     'nama_guru' => "Gojo"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202205,
-            'nama_guru' => "Yowo"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202205,
+        //     'nama_guru' => "Yowo"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202206,
-            'nama_guru' => "Karto"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202206,
+        //     'nama_guru' => "Karto"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202207,
-            'nama_guru' => "Tomo"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202207,
+        //     'nama_guru' => "Tomo"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202208,
-            'nama_guru' => "Pato"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202208,
+        //     'nama_guru' => "Pato"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202209,
-            'nama_guru' => "Noto"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202209,
+        //     'nama_guru' => "Noto"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202210,
-            'nama_guru' => "Loco"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202210,
+        //     'nama_guru' => "Loco"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202211,
-            'nama_guru' => "Hulo"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202211,
+        //     'nama_guru' => "Hulo"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202212,
-            'nama_guru' => "Toyo"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202212,
+        //     'nama_guru' => "Toyo"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202213,
-            'nama_guru' => "Tamo"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202213,
+        //     'nama_guru' => "Tamo"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202214,
-            'nama_guru' => "Mayo"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202214,
+        //     'nama_guru' => "Mayo"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202215,
-            'nama_guru' => "Rayo"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202215,
+        //     'nama_guru' => "Rayo"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202216,
-            'nama_guru' => "Pakjo"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202216,
+        //     'nama_guru' => "Pakjo"
+        // ]);
 
-        Guru::create([
-            'nip_guru' => 3011202217,
-            'nama_guru' => "Yuto"
-        ]);
+        // Guru::create([
+        //     'nip_guru' => 3011202217,
+        //     'nama_guru' => "Yuto"
+        // ]);
         
 // +----------------------------------------------------------+
 
@@ -201,11 +201,11 @@ class DatabaseSeeder extends Seeder
 
 // Kepala Sekolah
 
-        Kepalasekolah::create([
-            'nip_guru' => 3011202206,
-            'nama_kepsek' => 'Karto',
-            'jabatan' => 'Kepala Sekolah'
-        ]);
+        // Kepalasekolah::create([
+        //     'nip_guru' => 3011202206,
+        //     'id_kepsek' => 'Karto',
+        //     'jabatan' => 'Kepala Sekolah'
+        // ]);
 
 // +----------------------------------------------------------+
 

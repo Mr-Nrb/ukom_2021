@@ -17,10 +17,10 @@ return new class extends Migration
         DB::unprepared("
         CREATE OR REPLACE VIEW view_penilaian  AS 
         SELECT 
+                penilaian.id_penilaian,
                 siswa.nama_siswa, 
                 siswa.nis, 
                 pembimbing_perusahaan.nama_pp, 
-                penilaian.id_penilaian,
                 nilai.nilai,
                 kompetensi.nama_kompetensi
 
@@ -30,6 +30,7 @@ return new class extends Migration
         INNER JOIN nilai ON penilaian.id_penilaian = nilai.id_penilaian
         INNER JOIN pembimbing_perusahaan ON penilaian.nik_pp = pembimbing_perusahaan.nik_pp
         INNER JOIN kompetensi ON nilai.kompetensi = kompetensi.id_kompetensi
+        
 
     ");
     }

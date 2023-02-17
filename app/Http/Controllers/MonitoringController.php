@@ -67,7 +67,7 @@ class MonitoringController extends Controller
                 'verifikasi' => $request->input('verifikasi'),
             ];
             // Memasukan data ke Database.
-            $insert = $this->Supplier::create($data);
+            $insert = $this->Monitoring::create($data);
             if ($insert) {
                 return redirect('monitoring');
             } else {
